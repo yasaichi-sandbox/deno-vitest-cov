@@ -1,0 +1,17 @@
+{
+  "name": "vitest-cov",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@vitest/coverage-istanbul": "^2.0.5",
+    "@vitest/coverage-v8": "^2.0.5",
+    "vitest": "^2.0.5"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "RUST_BACKTRACE=1 deno task test --coverage",
+    "test": "DENO_FUTURE=1 deno run -A npm:vitest run"
+  },
+  "type": "module"
+}
