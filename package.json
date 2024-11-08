@@ -11,7 +11,7 @@
   "main": "index.js",
   "scripts": {
     "coverage": "RUST_BACKTRACE=1 deno task test --coverage",
-    "test": "DENO_FUTURE=1 deno run -A npm:vitest run"
+    "test": "deno run -A npm:vitest run"
   },
   "type": "module"
 }
